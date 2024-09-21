@@ -24,6 +24,12 @@ yargs(argv.slice(2))
     type: 'boolean',
     desc: 'Skip confirmation prompts',
   })
+  .option('maven-args', {
+    alias: 'm',
+    type: 'string',
+    desc: 'Maven arguments (passed verbatim)',
+    default: 'clean install',
+  })
   .command({
     command: 'add <id> [ids..]',
     aliases: ['a'],
