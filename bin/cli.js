@@ -17,6 +17,13 @@ const scopeOptionBuilder = (yargs) =>
   })
 
 yargs(argv.slice(2))
+  .scriptName('pomeranian')
+  .version(false)
+  .option('yes', {
+    alias: 'y',
+    type: 'boolean',
+    desc: 'Skip confirmation prompts',
+  })
   .command({
     command: 'add <id> [ids..]',
     aliases: ['a'],
@@ -32,11 +39,6 @@ yargs(argv.slice(2))
     handler: remove,
   })
   .demandCommand()
-  .option('yes', {
-    alias: 'y',
-    type: 'boolean',
-    desc: 'Skip confirmation prompts',
-  })
   .help()
   .strict()
   .parse()
