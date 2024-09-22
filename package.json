@@ -1,7 +1,7 @@
 {
   "name": "@timdp/pomeranian",
   "description": "Like Yarn, but for Maven.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "license": "MIT",
   "repository": {
