@@ -25,35 +25,35 @@ Try `pom --help` for quick instructions.
 Add dependency by group ID, artifact ID and version:
 
 ```bash
-pomeranian add org.apache.commons:junit-jupiter:1.12.0
+pomeranian add org.apache.commons:commons-text:1.12.0
 ```
 
 Or shorter:
 
 ```bash
-pom a org.apache.commons:junit-jupiter:1.12.0
+pom a org.apache.commons:commons-text:1.12.0
 ```
 
 Or by URL:
 
 ```bash
-pom a https://central.sonatype.com/artifact/org.apache.commons/junit-jupiter/1.12.0
+pom a https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.12.0
 ```
 
 Or use the latest version:
 
 ```bash
-pom a org.apache.commons:junit-jupiter
+pom a org.apache.commons:commons-text
 ```
 
 ```bash
-pom a https://central.sonatype.com/artifact/org.apache.commons/junit-jupiter
+pom a https://central.sonatype.com/artifact/org.apache.commons/commons-text
 ```
 
 Or search:
 
 ```bash
-pom a junit
+pom a commons-text
 ```
 
 Need to change the scope? Use `--scope` or `-s`:
@@ -67,19 +67,19 @@ pom a org.junit.jupiter:junit-jupiter -s test
 Remove dependency by group ID and artifact ID:
 
 ```bash
-pomeranian remove org.apache.commons:junit-jupiter
+pomeranian remove org.apache.commons:commons-text
 ```
 
 Or shorter:
 
 ```bash
-pom r org.apache.commons:junit-jupiter
+pom r org.apache.commons:commons-text
 ```
 
 Or by artifact ID only:
 
 ```bash
-pom r junit-jupiter
+pom r commons-text
 ```
 
 ### Unsupervised
