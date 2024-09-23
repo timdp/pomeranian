@@ -83,6 +83,12 @@ Or by artifact ID only:
 pom r commons-text
 ```
 
+Or use wildcards:
+
+```bash
+pom r '*junit*
+```
+
 ### Unsupervised
 
 Add `--yes` or `-y` to accept all confirmation prompts.
