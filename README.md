@@ -86,7 +86,7 @@ pom r commons-text
 Or use wildcards:
 
 ```bash
-pom r '*junit*
+pom r "*junit*"
 ```
 
 ### Unsupervised
