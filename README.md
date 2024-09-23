@@ -16,7 +16,8 @@ npm install --global @timdp/pomeranian
 
 ## Usage
 
-You must run `pomeranian` (or `pom`) in a directory with a Maven `pom.xml`.
+Run `pomeranian` (or `pom`) in a directory with a Maven `pom.xml`. If `pom.xml`
+doesn't exist, it will attempt to find one higher up.
 
 Try `pom --help` for quick instructions.
 
@@ -84,7 +85,7 @@ pom r commons-text
 
 ### Unsupervised
 
-Add `--yes` or `-y` to accept all prompts.
+Add `--yes` or `-y` to accept all confirmation prompts.
 
 ## Author
 
