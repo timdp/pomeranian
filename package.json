@@ -16,8 +16,8 @@
     "node": ">=22"
   },
   "bin": {
-    "pomeranian": "./bin/cli.js",
-    "pom": "./bin/cli.js"
+    "pomeranian": "bin/cli.js",
+    "pom": "bin/cli.js"
   },
   "files": [
     "bin/",
