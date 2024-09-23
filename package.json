@@ -1,6 +1,6 @@
 {
   "name": "@timdp/pomeranian",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Like Yarn, but for Maven.",
   "repository": {
     "type": "git",
